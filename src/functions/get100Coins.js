@@ -1,5 +1,5 @@
 import axios from "axios";
-import { API_URL } from "../constants";
+const API_URL = "https://api.coingecko.com/api/v3/coins";
 
 export const get100Coins = () => {
   const coins = axios

@@ -9,6 +9,7 @@ import SearchComponent from "../components/Dashboard/Search/search";
 import TabsComponent from "../components/Dashboard/Tabs/tabs";
 import { get100Coins } from "../functions/get100Coins";
 
+
 function DashboardPage() {
   const [loading, setLoading] = useState(false);
   const [coins, setCoins] = useState([]);
